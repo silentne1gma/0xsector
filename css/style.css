@@ -60,7 +60,7 @@ body {
 }
 
 #about{
-    background-image:  linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url("../media/5f95ed_c1b32f90d68046e993a183518e48ecf3~mv2.gif");
+    background-image:  linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url("../media/5f95ed_c1b32f90d68046e993a183518e48ecf3~mv2.gif");
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
