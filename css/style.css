@@ -1,0 +1,103 @@
+:root{
+    --main:#7EEE26;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'VT323', monospace;
+    color: var(--main);
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../media/MOSHED-2021-2-20-14-25-27.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    height: 50vh;
+}
+.main-area{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom:30px;
+}
+#join{
+    background:var(--main);
+    font-size: 2rem;
+    padding: 5px 100px;
+    color:#000;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+
+}
+
+.readmore a{
+    color:var(--main); 
+    text-decoration: none;
+    font-size: 22px;  
+}
+
+#join:hover{
+    color: var(--main);
+    background: #000;
+    transition: ease-in-out .5s;
+}
+
+.readmore a:hover{
+    text-decoration: underline;
+}
+
+#about{
+    background: #030100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about h1{
+    font-size:2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+#about p, #about span {
+    font-size: 2rem;
+    text-align: center;
+
+}
+#about i {
+    color : var(--main); 
+    transition: ease-in-out .5s;
+
+}
+#about i:hover{
+    transition: ease-in-out .5s;
+    text-decoration: underline;
+
+}
+@media (max-width: 1000px){
+    .main-area{
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    #join{
+        font-size: 1rem;
+        padding: 5px 80px;
+
+    }
+
+}
