@@ -60,7 +60,9 @@ body {
 }
 
 #about{
-    background: #030100;
+    background-image: url("../media/5f95ed_c1b32f90d68046e993a183518e48ecf3~mv2.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 100vh;
     display: flex;
     justify-content: center;
